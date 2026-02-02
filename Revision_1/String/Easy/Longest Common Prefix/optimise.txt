@@ -1,0 +1,9 @@
+1)Take a variable using StringBuilder
+2)Sort the array
+3)First String After sorting: s[0];
+4)Last String After sorting: s[s.length-1];
+5)Interate over the shortest length of string(compare first and last)
+6)stop if characters are different
+7)Add matching characters to result
+8)return final common prefix: ans.toString();
+
