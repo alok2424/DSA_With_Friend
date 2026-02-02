@@ -1,0 +1,5 @@
+1)Double the original string by joining it with itself, creating a new string like s + s.
+2)Look for the target string goalinside this new doubled string.
+3)If goal exists within the doubled string, then it's a valid rotation, return true.
+4)If it's not found, that means the original string cannot be rotated to match goal, return false
+5) TC: O(N) && SC: O(N)
