@@ -1,0 +1,9 @@
+1)Initialize an empty list to store words.
+2)Traverse the string character by character.
+3)Identify consecutive non-space characters as a word.
+4)Ignore extra spaces and leading/trailing spaces while collecting words.
+5)Append each identified word to the list.
+6)Reverse the list of words.
+7)Join the reversed list into a single string using a single space.
+8)Return the resulting string.
+9) TC: O(N)
