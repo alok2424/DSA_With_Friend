@@ -1,0 +1,15 @@
+1)Loop through all substrings of the string.
+2)Maintain a frequency map of characters for each substring.
+3)For each substring:
+4)Find the most frequent character's count.
+--Find the least frequent non-zero character's count.
+--Calculate the difference between the two counts.
+--Add the difference to the running sum.
+5) TC && SC
+Outer loop: O(n) (for each starting index)
+Inner loop: O(n) (for each ending index)
+Computing max and min for frequencies: O(26) in the worst case (since only lowercase letters), O(n^2 * 26) ≈ O(n^2) because 26 is constant.
+
+Space Complexity:
+Frequency map uses at most 26 characters → O(26) = O(1).
+No extra data structures apart from that.
