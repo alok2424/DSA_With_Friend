@@ -1,3 +1,4 @@
+//Leetcode:796
 class Solution{
     // Method to check if one string is a rotation of another
     public boolean rotateString(String s, String goal) {
