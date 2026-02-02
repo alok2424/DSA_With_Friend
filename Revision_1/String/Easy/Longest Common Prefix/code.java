@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Solution{
     // Returns the longest common prefix in an array of strings
     public String longestCommonPrefix(String[] v) {
         // To store the result prefix
