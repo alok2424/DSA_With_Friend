@@ -1,5 +1,0 @@
-1)Start by scanning the string to identify words, treating each word as a group of characters separated by spaces.
-2)Store these words in a list, making sure to skip any extra or multiple spaces.
-3)After collecting all the words, reverse the order of the list.
-4)Join the reversed words using a single space between them.
-5)Ensure the final result has no leading or trailing spaces.
